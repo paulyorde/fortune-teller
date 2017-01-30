@@ -21,7 +21,7 @@ public class FortuneTeller {
 		String result = null;
 		if(age % 2 == 1) {
 			result = " You will retire in 1 year,";
-		} else {
+		} else if(age % 2 == 0) {
 			result = " You will retire in 100 years,";
 		}
 		return result;		
